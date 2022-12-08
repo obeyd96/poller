@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1> Welcome to Poller </h1>
+    <p>A Polling app developed by Obaid</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}" >
+      View Available Polls</a>
+  </div>
+</div>
+{% endblock %}
